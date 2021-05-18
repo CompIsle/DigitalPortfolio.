@@ -1,6 +1,6 @@
 # MyDigitalPortfolio
  
-- The Portfolio works on all the major browsers (Chrome, Edge, Firefox & Brave)
+- The Portfolio works on all the major browsers (Chrome, Edge, Firefox)
 
 - All the components are from HTML, Bootstrap or CSS
  (JavaScript is linked for backup purposes)
@@ -9,7 +9,7 @@
 
 # Feedback 
 
-- Sabbir - The layout of the website is simple and easy to understand. The content on the website is helpful and gives a good picture on how Morgan is. To improve the website I suggest you add more colours to make it look more appealing towards the eye. 
+1) Sabbir - The layout of the website is simple and easy to understand. The content on the website is helpful and gives a good picture on how Morgan is. To improve the website I suggest you add more colours to make it look more appealing towards the eye. 
 
 <br>
 
