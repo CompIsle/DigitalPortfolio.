@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+<!--Added A ScrollWheel for Navigation -->
+
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
+ 
+
+<!--I dont where I came up with the name NewVision but I think it works, also here I linked Bootstrap-->
+
+<title>NewVision Mobile</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<!--Here I added a Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NewVision Mobile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="website.html">Phones</a>
+              </li>
+
+              <!--Here I linked two HTML documents toi make the websites flow-->
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Data Plans</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About Us</a>
+              </li>
+              </li>
+              <li class="nav-item">
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ 
+       <!--Here I added an Alert Message-->
+
+      <div class="alert alert-primary" role="alert">
+        50% Off All Data and Phone Plans. Launch Day Offer!
+      </div>
+
+      <!--Here i added a Carousel From BootStrap that has 1 Image which will change depending on the newest Phone release-->
+     
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="samsung-galaxy-s21-x-large.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h5>Samsung Galaxy S21 | Samsung Galaxy S21+5G</h5>
+              <p>Pre-Order's starting from £999</p>
+            </div>
+          </div>\
+  
+    
+        </p>
+      <div class="card-group">
+        <div class="card">
+          <img src="iphone-12-gallery2-2020_FMT_WHH.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apple</h5>
+            <p class="card-text">All our Apple Products are received from Apple and are certified with 2 months free AppleCare+.</p>
+            <p class="card-text"><small class="text-muted">AppleCare+ includes repairs and replacements</small></p>
+            <p><a href="https://www.youtube.com/watch?v=DdjjRMhsQQU">Click here to see and learn about AppleCare</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Samsung Galaxy S21.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung</h5>
+            <p class="card-text">All our Samsung Products are certified and checked for any sign of damaged, wear or tare before distribution .</p>
+            <p class="card-text"><small class="text-muted">Samsung Galaxy and Note Products Available Now</small></p>
+            <p><a href="https://www.youtube.com/watch?v=DcwyXAZZp7w">Click here to see and learn about the Galaxy Buds Live</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="GooglePixel5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Google</h5>
+            <p class="card-text">Google Pixel 5 is a great mid-range Smartphone packed with some powerful internal power. And we provide full repair and service support from our engineers. </p>
+            <p class="card-text"><small class="text-muted">NewVision Mobile Repairs Coming Soon</small></p>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/v_f3Km_eQnw" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe></div>
+        </div>
+      </div>
+
+<!--Added a Video to show consumers hat the best phone currently-->
+
+
+      <!--A About US Section-->
+
+      <h1>Who are we?</h1>
+      <p>
+   NewVision Mobile is a child company of NewVision LLC. Our aim is to provide reasonable prices
+   for modern tech. From iPhone's, Samsung's or Pixels', We offer a fair price, and if you want a 
+   lower monthly fee our expert advisors can help you, we belive the customer is always right and if we need to ajust our prices 
+    to meet your price point we shall talk to you via out Customer Support telephone number or via our Live Chat service to help you find what you want
+  </p>
+  <p>   NewVision Mobile was founded by NewVision LLC in late 2020, we offer monthly data plans with 4G and 5G connections
+        in certain UK area's. Soon we will be offering Tablets and Laptops as well as Data Plans and Mobile Phones.
+  </p>
+
+<!--Added Account Creation Page as most websites have a email service-->
+  
+  <h2>Create An NewVision Account</h2>
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">All your infomation is kept End-to-End Encytpted, so we wont even see it.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">You argree to the T&C's</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+      
+
+
+
+
+<p></p>
+
+</body>
+</html>
